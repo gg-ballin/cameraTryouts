@@ -194,7 +194,6 @@
 				226C5097310E4127DAC73D10 /* Pods-cameraTryoutsTests.debug.xcconfig */,
 				0AA915B8398743418920410D /* Pods-cameraTryoutsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +307,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
