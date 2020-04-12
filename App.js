@@ -7,9 +7,6 @@ import FingerPrint from './src/fingerPrint/fingerPrint';
 const WIDTH = Dimensions.get('window').width;
 const HEIGHT = Dimensions.get('window').height;
 export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
