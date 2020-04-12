@@ -1,23 +1,12 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-  Button,
-  Image,
-  Dimensions,
-  ScrollView,
-} from 'react-native';
+import {StyleSheet, View, Dimensions, ScrollView} from 'react-native';
 import ImagePicker from './src/cameraTryouts/imagePicker';
 import FingerPrint from './src/fingerPrint/fingerPrint';
 
 const WIDTH = Dimensions.get('window').width;
 const HEIGHT = Dimensions.get('window').height;
 export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
@@ -30,6 +19,7 @@ export default class App extends React.Component {
           <View style={styles.child_2}>
             <FingerPrint />
           </View>
+          <View style={{margin: 10}} />
         </ScrollView>
       </View>
     );
